@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - 5678:5678
+    environment:
+      - WEBHOOK_URL=${URL}
+    volumes:
+      - ${VOLUME_PATH}:/home/node/.n8n
