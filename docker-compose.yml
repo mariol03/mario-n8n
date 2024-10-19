@@ -1,6 +1,6 @@
 services:
   app:
-    image: docker pull ghcr.io/mariol03/mario-n8n:latest
+    image: ghcr.io/mariol03/mario-n8n:latest
     ports:
       - 5678:5678
     environment:
