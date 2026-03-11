@@ -1,5 +1,5 @@
 FROM node:24-alpine
-ARG N8N_RELEASE_TYPE=production
+ARG N8N_RELEASE_TYPE=stable
 ENV N8N_RELEASE_TYPE=${N8N_RELEASE_TYPE}
 
 RUN apk index
